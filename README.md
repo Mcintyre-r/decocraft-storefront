@@ -1,4 +1,4 @@
-# Decocraft Storefront
+# Decocraft Storefront!
 
 A coordinated set of 16 Decocraft storefront Markdown previews, including compact clickable pack title bars and individual pack pages.
 
