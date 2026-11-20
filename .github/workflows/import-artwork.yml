@@ -5,19 +5,20 @@ on:
     branches: [main]
     paths:
       - artwork-import.zip
+      - .github/workflows/import-artwork.yml
 
 permissions:
   contents: write
 
 jobs:
   import:
-    if: ${{ hashFiles('artwork-import.zip') != '' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           persist-credentials: true
       - name: Install generated PNG assets and update previews
+        if: ${{ hashFiles('artwork-import.zip') != '' }}
         run: |
           python3 - <<'PY'
           from pathlib import Path
@@ -43,6 +44,7 @@ jobs:
           archive.unlink()
           PY
       - name: Commit PNG artwork and updated Markdown
+        if: ${{ hashFiles('artwork-import.zip') != '' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
