@@ -1,0 +1,50 @@
+name: Import generated Decocraft artwork
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - artwork-import.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install generated PNG assets and update previews
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import re
+          archive=Path('artwork-import.zip')
+          with ZipFile(archive) as z:
+              images=[n for n in z.namelist() if n.endswith('.png')]
+              if len(images)!=32:
+                  raise ValueError(f'Expected 32 PNG files; received {len(images)}')
+              for name in images:
+                  path=Path(name)
+                  if path.is_absolute() or '..' in path.parts or path.parts[0]!='assets' or len(path.parts)!=3 or path.name not in ('banner.png','keyart.png'):
+                      raise ValueError(f'Unexpected archive path: {name}')
+                  path.parent.mkdir(parents=True,exist_ok=True)
+                  path.write_bytes(z.read(name))
+          for p in [Path('README.md'),Path('hub/README.md'),*Path('packs').glob('*.md')]:
+              content=p.read_text()
+              content=re.sub(r'(assets/[^/]+/(?:banner|keyart))\.svg',r'\1.png',content)
+              if p.name=='README.md' and p.parent==Path('.'):
+                  content=content.replace('The image-generated Minecraft-style banner artwork has not yet been uploaded to GitHub, and the pack page key art currently remains the existing SVG concept artwork.', 'The hub now uses generated PNG logo cutouts, and the pack pages use generated PNG key art.')
+              p.write_text(content)
+          archive.unlink()
+          PY
+      - name: Commit PNG artwork and updated Markdown
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets README.md hub/README.md packs artwork-import.zip
+          git commit -m "Replace SVG concepts with generated PNG key art and logos"
+          git push
