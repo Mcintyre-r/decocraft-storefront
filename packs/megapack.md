@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Megapack](../assets/megapack/keyart.svg)
+![Decocraft Megapack](../assets/megapack/keyart.png)
 
 [![Discord](../assets/megapack/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/megapack/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

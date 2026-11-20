@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Hobbies](../assets/hobbies/keyart.svg)
+![Decocraft Hobbies](../assets/hobbies/keyart.png)
 
 [![Discord](../assets/hobbies/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/hobbies/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Paintings](../assets/paintings/keyart.svg)
+![Decocraft Paintings](../assets/paintings/keyart.png)
 
 [![Discord](../assets/paintings/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/paintings/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

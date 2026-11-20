@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Pets](../assets/pets/keyart.svg)
+![Decocraft Pets](../assets/pets/keyart.png)
 
 [![Discord](../assets/pets/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/pets/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

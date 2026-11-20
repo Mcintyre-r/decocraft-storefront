@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Asia](../assets/asia/keyart.svg)
+![Decocraft Asia](../assets/asia/keyart.png)
 
 [![Discord](../assets/asia/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/asia/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Vehicles](../assets/vehicles/keyart.svg)
+![Decocraft Vehicles](../assets/vehicles/keyart.png)
 
 [![Discord](../assets/vehicles/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/vehicles/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

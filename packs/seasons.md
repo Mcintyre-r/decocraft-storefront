@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Seasons](../assets/seasons/keyart.svg)
+![Decocraft Seasons](../assets/seasons/keyart.png)
 
 [![Discord](../assets/seasons/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/seasons/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

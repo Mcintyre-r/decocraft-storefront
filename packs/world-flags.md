@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft World Flags](../assets/world-flags/keyart.svg)
+![Decocraft World Flags](../assets/world-flags/keyart.png)
 
 [![Discord](../assets/world-flags/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/world-flags/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

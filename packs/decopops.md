@@ -1,6 +1,6 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Decopops](../assets/decopops/keyart.svg)
+![Decocraft Decopops](../assets/decopops/keyart.png)
 
 [![Discord](../assets/decopops/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/decopops/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)
