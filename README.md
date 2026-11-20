@@ -1,54 +1,99 @@
-# Decocraft Storefront!
+<div align="center">
 
-A coordinated set of 16 Decocraft storefront Markdown previews, including compact clickable pack title bars and individual pack pages.
+![Decocraft](https://cdn.modrinth.com/data/IZJSgKZe/images/719a81fbe9d8760f26e3bde020f64029f1623f39.png)
 
-**Status:** Working preview. The hub now uses generated PNG logo cutouts, and the pack pages use generated PNG key art. Dependencies, pack contents, and publication links need verification.
+**Bring your Minecraft builds to life with thousands of decorations, furniture pieces, and animated details.**
 
-## Pack collection
+[Decocraft on Modrinth](https://modrinth.com/mod/decocraft) · [Decocraft on CurseForge](https://www.curseforge.com/minecraft/mc-mods/decocraft)
 
-[Open the main hub page](hub/README.md)
+</div>
 
-<a href="packs/megapack.md"><img src="assets/megapack/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Megapack — view pack page"></a>
+> **A new chapter for Decocraft:** Decocraft is being organized into themed packs so you can explore the styles that best suit your builds. The pack pages below are previews for upcoming releases. Individual compatibility and dependencies will be announced with each release.
 
-<a href="packs/asia.md"><img src="assets/asia/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Asia — view pack page"></a>
+> **Legacy version notes:** For Decocraft 1.16 and later, PTRLib is not required; the historical 1.12.2 release requires it. The original 1.16 release was identified as beta. These older notes do **not** establish dependencies for the upcoming modular packs.
 
-<a href="packs/city-life.md"><img src="assets/city-life/banner.png?v=20261120-cleaned" width="680" alt="Decocraft City Life — view pack page"></a>
+## 📚 About
 
-<a href="packs/cottage-core.md"><img src="assets/cottage-core/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Cottage Core — view pack page"></a>
+Decocraft brings a huge range of decoration options to Minecraft, making it easier to transform an empty build into a welcoming, personalized space. With furniture, decorative blocks, lighting, and many other details to choose from, you can create everything from cozy cottages to elaborate fantasy and urban environments.
 
-<a href="packs/decopops.md"><img src="assets/decopops/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Decopops — view pack page"></a>
+Some Decocraft decorations do more than sit on a shelf: certain objects are interactive or animated, adding life and personality to the places you build. Whether you're decorating a lived-in kitchen, crafting a lively town, or furnishing your dream home, Decocraft is all about the finishing touches.
 
-<a href="packs/food.md"><img src="assets/food/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Food — view pack page"></a>
+As the collection expands into smaller themed packs, you'll be able to discover decorations by category and build around the themes you enjoy most.
 
-<a href="packs/hobbies.md"><img src="assets/hobbies/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Hobbies — view pack page"></a>
+## 🧩 Explore the Decocraft Packs
 
-<a href="packs/kids.md"><img src="assets/kids/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Kids — view pack page"></a>
+**Choose a pack to view its page.** Each banner opens a preview with more information about that collection.
 
-<a href="packs/lighting.md"><img src="assets/lighting/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Lighting — view pack page"></a>
+[![Decocraft Megapack](assets/megapack/banner.png?v=20261120-cleaned)](packs/megapack.md)
 
-<a href="packs/medieval.md"><img src="assets/medieval/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Medieval — view pack page"></a>
+[![Decocraft Asia](assets/asia/banner.png?v=20261120-cleaned)](packs/asia.md)
 
-<a href="packs/paintings.md"><img src="assets/paintings/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Paintings — view pack page"></a>
+[![Decocraft City Life](assets/city-life/banner.png?v=20261120-cleaned)](packs/city-life.md)
 
-<a href="packs/pets.md"><img src="assets/pets/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Pets — view pack page"></a>
+[![Decocraft Cottage Core](assets/cottage-core/banner.png?v=20261120-cleaned)](packs/cottage-core.md)
 
-<a href="packs/pride.md"><img src="assets/pride/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Pride — view pack page"></a>
+[![Decocraft Decopops](assets/decopops/banner.png?v=20261120-cleaned)](packs/decopops.md)
 
-<a href="packs/seasons.md"><img src="assets/seasons/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Seasons — view pack page"></a>
+[![Decocraft Food](assets/food/banner.png?v=20261120-cleaned)](packs/food.md)
 
-<a href="packs/vehicles.md"><img src="assets/vehicles/banner.png?v=20261120-cleaned" width="680" alt="Decocraft Vehicles — view pack page"></a>
+[![Decocraft Hobbies](assets/hobbies/banner.png?v=20261120-cleaned)](packs/hobbies.md)
 
-<a href="packs/world-flags.md"><img src="assets/world-flags/banner.png?v=20261120-cleaned" width="680" alt="Decocraft World Flags — view pack page"></a>
+[![Decocraft Kids](assets/kids/banner.png?v=20261120-cleaned)](packs/kids.md)
 
-## Project layout
+[![Decocraft Lighting](assets/lighting/banner.png?v=20261120-cleaned)](packs/lighting.md)
 
-- `hub/README.md` — main page with compact, clickable pack buttons
-- `packs/*.md` — 16 individual page drafts with key art, social panels, description, dependencies, and hub return
-- `assets/<pack>/banner.png` — cleaned transparent PNG title banners
-- `assets/<pack>/keyart.png` — pack key art (earlier generated artwork; separate from the cleaned banners)
-- `assets/<pack>/social-*.svg` — social panels
-- `assets/shared/back-to-decocraft.svg` — return-to-hub link graphic
+[![Decocraft Medieval](assets/medieval/banner.png?v=20261120-cleaned)](packs/medieval.md)
 
-## Before publishing
+[![Decocraft Paintings](assets/paintings/banner.png?v=20261120-cleaned)](packs/paintings.md)
 
-Confirm exact dependencies and supported loader/version combinations; replace placeholder social and pack URLs; replace concept artwork with final art; use public absolute HTTPS image URLs on third-party storefronts.
+[![Decocraft Pets](assets/pets/banner.png?v=20261120-cleaned)](packs/pets.md)
+
+[![Decocraft Pride](assets/pride/banner.png?v=20261120-cleaned)](packs/pride.md)
+
+[![Decocraft Seasons](assets/seasons/banner.png?v=20261120-cleaned)](packs/seasons.md)
+
+[![Decocraft Vehicles](assets/vehicles/banner.png?v=20261120-cleaned)](packs/vehicles.md)
+
+[![Decocraft World Flags](assets/world-flags/banner.png?v=20261120-cleaned)](packs/world-flags.md)
+
+### Getting started with modular Decocraft
+
+The pack collection is being prepared for release. Each pack page will describe its supported Minecraft versions, mod loaders, required base components, and other dependencies once those details are verified. **Do not assume that requirements from older all-in-one Decocraft versions apply to the modular packs.**
+
+## 💬 Join us on Discord!
+
+Follow Decocraft's community channels for news, build inspiration, and release updates. **Official Discord invite URL: to be added.**
+
+### Credits
+
+- **ProfMobius** — Lead Coder
+- **RazzleberryFox** — 3D Models / Coder
+- **PhiiDelity** — Social Media Manager
+- **Momoko** — 3D Models / Coder
+- **CiciHoneyBee** — 3D Models
+
+## Check Out Our Other Mods!
+
+Explore the creator's other projects and future announcements through the official Decocraft community and storefront profiles. Links to individual projects can be added here once confirmed.
+
+## ❓ FAQ
+
+**Q: Why are there separate packs now?**
+
+A: Decocraft is being organized into smaller themed collections. Browse the pack banners above to find the styles that interest you.
+
+**Q: Do I need a base mod or extra dependencies?**
+
+A: Requirements are release-specific and have not yet been confirmed for all upcoming packs. Follow each pack's published dependency information when installing.
+
+**Q: My game takes a long time to load or crashes. What should I try?**
+
+A: Make sure your Minecraft version and loader match the mod files you installed, verify the required dependencies, and check your available memory. The existing Decocraft page historically recommended allocating at least 4 GB of RAM; actual needs vary by installation and modpack.
+
+**Q: Can I include Decocraft in a modpack?**
+
+A: The existing Decocraft FAQ allows use in modpacks. Check the applicable project license and current distribution rules before redistributing mod files.
+
+---
+
+*Storefront redesign preview. The banner links currently open GitHub pack-page drafts; swap their destinations for public Modrinth or CurseForge pack URLs once those pages are published.*
