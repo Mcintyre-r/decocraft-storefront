@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Food](../assets/food/keyart.png)
+<p align="center">
+  <img src="../assets/food/keyart.png" alt="Decocraft Food" width="700">
+</p>
 
 [![Discord](../assets/food/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/food/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

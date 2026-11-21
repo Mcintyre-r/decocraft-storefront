@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft City Life](../assets/city-life/keyart.png)
+<p align="center">
+  <img src="../assets/city-life/keyart.png" alt="Decocraft City Life" width="700">
+</p>
 
 [![Discord](../assets/city-life/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/city-life/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

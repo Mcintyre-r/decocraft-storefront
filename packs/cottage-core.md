@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Cottage Core](../assets/cottage-core/keyart.png)
+<p align="center">
+  <img src="../assets/cottage-core/keyart.png" alt="Decocraft Cottage Core" width="700">
+</p>
 
 [![Discord](../assets/cottage-core/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/cottage-core/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

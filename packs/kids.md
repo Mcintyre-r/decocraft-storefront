@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Kids](../assets/kids/keyart.png)
+<p align="center">
+  <img src="../assets/kids/keyart.png" alt="Decocraft Kids" width="700">
+</p>
 
 [![Discord](../assets/kids/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/kids/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)
