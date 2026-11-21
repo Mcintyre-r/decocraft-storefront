@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Pride](../assets/pride/keyart.png)
+<p align="center">
+  <img src="../assets/pride/keyart.png" alt="Decocraft Pride" width="700">
+</p>
 
 [![Discord](../assets/pride/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/pride/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Paintings](../assets/paintings/keyart.png)
+<p align="center">
+  <img src="../assets/paintings/keyart.png" alt="Decocraft Paintings" width="700">
+</p>
 
 [![Discord](../assets/paintings/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/paintings/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

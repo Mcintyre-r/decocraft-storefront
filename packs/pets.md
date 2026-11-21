@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Pets](../assets/pets/keyart.png)
+<p align="center">
+  <img src="../assets/pets/keyart.png" alt="Decocraft Pets" width="700">
+</p>
 
 [![Discord](../assets/pets/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/pets/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)

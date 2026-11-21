@@ -1,6 +1,8 @@
 <!-- DRAFT: Verify content, version support, dependencies and final URLs before publishing. -->
 
-![Decocraft Medieval](../assets/medieval/keyart.png)
+<p align="center">
+  <img src="../assets/medieval/keyart.png" alt="Decocraft Medieval" width="700">
+</p>
 
 [![Discord](../assets/medieval/social-discord.svg)](https://discord.gg/REPLACE_ME)
 [![Modrinth](../assets/medieval/social-modrinth.svg)](https://modrinth.com/mod/REPLACE_ME)
