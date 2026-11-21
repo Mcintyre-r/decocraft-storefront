@@ -2,6 +2,12 @@
 
 ![Decocraft](https://cdn.modrinth.com/data/IZJSgKZe/images/719a81fbe9d8760f26e3bde020f64029f1623f39.png)
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/social/instagram.png?v=20261121" alt="Instagram" width="180">
+  <img src="https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/social/youtube.png?v=20261121" alt="YouTube" width="180">
+  <img src="https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/social/tiktok.png?v=20261121" alt="TikTok" width="180">
+</p>
+
 **Bring your Minecraft builds to life with thousands of decorations, furniture pieces, and animated details.**
 
 [Decocraft on Modrinth](https://modrinth.com/mod/decocraft) · [Decocraft on CurseForge](https://www.curseforge.com/minecraft/mc-mods/decocraft)
@@ -24,37 +30,37 @@ As the collection expands into smaller themed packs, you'll be able to discover 
 
 **Choose a pack to view its page.** These banners currently link to the GitHub preview for each pack. Replace those destinations with the public Modrinth pack pages after publication.
 
-[![Decocraft Megapack](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/megapack/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/megapack.md)
+[![Decocraft Megapack](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/megapack/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/megapack.md)
 
-[![Decocraft Asia](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/asia/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/asia.md)
+[![Decocraft Asia](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/asia/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/asia.md)
 
-[![Decocraft City Life](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/city-life/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/city-life.md)
+[![Decocraft City Life](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/city-life/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/city-life.md)
 
-[![Decocraft Cottage Core](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/cottage-core/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/cottage-core.md)
+[![Decocraft Cottage Core](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/cottage-core/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/cottage-core.md)
 
-[![Decocraft Decopops](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/decopops/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/decopops.md)
+[![Decocraft Decopops](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/decopops/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/decopops.md)
 
-[![Decocraft Food](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/food/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/food.md)
+[![Decocraft Food](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/food/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/food.md)
 
-[![Decocraft Hobbies](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/hobbies/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/hobbies.md)
+[![Decocraft Hobbies](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/hobbies/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/hobbies.md)
 
-[![Decocraft Kids](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/kids/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/kids.md)
+[![Decocraft Kids](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/kids/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/kids.md)
 
-[![Decocraft Lighting](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/lighting/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/lighting.md)
+[![Decocraft Lighting](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/lighting/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/lighting.md)
 
-[![Decocraft Medieval](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/medieval/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/medieval.md)
+[![Decocraft Medieval](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/medieval/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/medieval.md)
 
-[![Decocraft Paintings](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/paintings/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/paintings.md)
+[![Decocraft Paintings](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/paintings/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/paintings.md)
 
-[![Decocraft Pets](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/pets/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/pets.md)
+[![Decocraft Pets](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/pets/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/pets.md)
 
-[![Decocraft Pride](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/pride/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/pride.md)
+[![Decocraft Pride](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/pride/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/pride.md)
 
-[![Decocraft Seasons](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/seasons/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/seasons.md)
+[![Decocraft Seasons](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/seasons/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/seasons.md)
 
-[![Decocraft Vehicles](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/vehicles/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/vehicles.md)
+[![Decocraft Vehicles](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/vehicles/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/vehicles.md)
 
-[![Decocraft World Flags](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/world-flags/banner.png?v=20261120-cleaned)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/world-flags.md)
+[![Decocraft World Flags](https://raw.githubusercontent.com/Mcintyre-r/decocraft-storefront/main/assets/world-flags/banner.png?v=20261121)](https://github.com/Mcintyre-r/decocraft-storefront/blob/main/packs/world-flags.md)
 
 ### Getting started with modular Decocraft
 
