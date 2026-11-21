@@ -1,0 +1,64 @@
+name: Import Decocraft social banners
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - social-banners-import.zip
+
+permissions:
+  contents: write
+
+jobs:
+  import-social-banners:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install transparent social banners beneath main key art
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          import re
+
+          archive = Path("social-banners-import.zip")
+          expected = {"assets/social/instagram.png", "assets/social/youtube.png", "assets/social/tiktok.png"}
+          with ZipFile(archive) as z:
+              found = {n for n in z.namelist() if not n.endswith("/")}
+              if found != expected:
+                  raise ValueError(f"Unexpected files in archive: {found ^ expected}")
+              for name in sorted(expected):
+                  content = z.read(name)
+                  if not content.startswith(b"\x89PNG\r\n\x1a\n"):
+                      raise ValueError(f"Invalid PNG: {name}")
+                  path = Path(name)
+                  path.parent.mkdir(parents=True, exist_ok=True)
+                  path.write_bytes(content)
+
+          block = """<!-- DECOCRAFT SOCIAL BANNERS START -->
+          <p align="center">
+            <img src="assets/social/instagram.png" width="190" alt="Instagram">
+            <img src="assets/social/youtube.png" width="190" alt="YouTube">
+            <img src="assets/social/tiktok.png" width="190" alt="TikTok">
+          </p>
+          <!-- DECOCRAFT SOCIAL BANNERS END -->"""
+          for name in ("README.md", "hub/README.md"):
+              p = Path(name)
+              text = p.read_text(encoding="utf-8")
+              relative = block if name == "README.md" else block.replace('src="assets/', 'src="../assets/')
+              text = re.sub(r"<!-- DECOCRAFT SOCIAL BANNERS START -->.*?<!-- DECOCRAFT SOCIAL BANNERS END -->", "", text, flags=re.S)
+              marker = "</div>"
+              if marker not in text:
+                  raise ValueError(f"Cannot find header closing tag in {name}")
+              text = text.replace(marker, relative + "\n\n" + marker, 1)
+              p.write_text(text, encoding="utf-8")
+          archive.unlink()
+          PY
+      - name: Commit social artwork and updated storefront previews
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet && exit 0
+          git commit -m "Add transparent Instagram YouTube TikTok banners beneath Decocraft key art"
+          git push
